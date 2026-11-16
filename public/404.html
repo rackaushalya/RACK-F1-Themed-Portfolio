@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>R.A.C.K. Perera | The 2026 Professional Skills Championship</title>
+    <script>
+      // GitHub Pages fallback. The app uses HashRouter (/#/race/slug), so a
+      // path-style URL such as /RACK-F1-Themed-Portfolio/race/slug would
+      // otherwise hit GitHub's 404. Rewrite it to the equivalent hash route.
+      ;(function () {
+        var base = '/RACK-F1-Themed-Portfolio/'
+        var l = window.location
+        var path = l.pathname.indexOf(base) === 0 ? l.pathname.slice(base.length) : ''
+        l.replace(base + (path ? '#/' + path.replace(/\/$/, '') + l.search : ''))
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>

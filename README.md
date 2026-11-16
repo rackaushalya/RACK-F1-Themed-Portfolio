@@ -6,9 +6,9 @@ Academic portfolio for Professional Skills (IT1215), Year 2, Semester 2, present
 
 ```bash
 npm install     # first time only
-npm run dev     # development server, http://localhost:5173
+npm run dev     # development server, http://localhost:5173/RACK-F1-Themed-Portfolio/
 npm run build   # production build into dist/
-npm run preview # serve the production build, http://localhost:4173
+npm run preview # serve the production build, http://localhost:4173/RACK-F1-Themed-Portfolio/
 ```
 
 ## Edit the content
